@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd c:/users/irene/onedrive/documentos/ifpb
+
+g++ -std=c++17 -o game `find ASCII_Engine -iname "*.cpp" -print` src/*.cpp && ./game
+
